@@ -1,0 +1,246 @@
+/* Tema con colores pasteles para la aplicación de Diario de hábitos */
+
+/* Colores base */
+:root {
+    --pastel-blue: #A8D8F0;
+    --pastel-green: #C4E3C4;
+    --pastel-yellow: #FFF4BD;
+    --pastel-pink: #F7C9C9;
+    --pastel-purple: #D9CAEB;
+    --pastel-orange: #FFD8B9;
+    --pastel-red: #F2B1B1;
+    --pastel-teal: #A8E6CF;
+    --pastel-gray: #E2E2E2;
+}
+
+/* Estilos generales */
+body {
+    background-color: #FAFAFA;
+}
+
+.site-index, .habit-index, .category-index, .habit-log-index, .goal-index {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Colores de botones */
+.btn-primary {
+    background-color: var(--pastel-blue);
+    border-color: var(--pastel-blue);
+    color: #333;
+}
+.btn-primary:hover {
+    background-color: #8ac8e9;
+    border-color: #8ac8e9;
+    color: #333;
+}
+
+.btn-success {
+    background-color: var(--pastel-green);
+    border-color: var(--pastel-green);
+    color: #333;
+}
+.btn-success:hover {
+    background-color: #a3d6a3;
+    border-color: #a3d6a3;
+    color: #333;
+}
+
+.btn-danger {
+    background-color: var(--pastel-red);
+    border-color: var(--pastel-red);
+    color: #333;
+}
+.btn-danger:hover {
+    background-color: #e99696;
+    border-color: #e99696;
+    color: #333;
+}
+
+.btn-info {
+    background-color: var(--pastel-teal);
+    border-color: var(--pastel-teal);
+    color: #333;
+}
+.btn-info:hover {
+    background-color: #8ddbc1;
+    border-color: #8ddbc1;
+    color: #333;
+}
+
+.btn-warning {
+    background-color: var(--pastel-orange);
+    border-color: var(--pastel-orange);
+    color: #333;
+}
+.btn-warning:hover {
+    background-color: #f8c79b;
+    border-color: #f8c79b;
+    color: #333;
+}
+
+/* Etiquetas de estado */
+.label-success {
+    background-color: var(--pastel-green);
+    color: #333;
+}
+.label-primary {
+    background-color: var(--pastel-blue);
+    color: #333;
+}
+.label-warning {
+    background-color: var(--pastel-yellow);
+    color: #333;
+}
+.label-danger {
+    background-color: var(--pastel-red);
+    color: #333;
+}
+.label-info {
+    background-color: var(--pastel-teal);
+    color: #333;
+}
+.label-default {
+    background-color: var(--pastel-gray);
+    color: #333;
+}
+
+/* Navbar */
+.navbar-inverse {
+    background-color: var(--pastel-purple);
+    border-color: var(--pastel-purple);
+}
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav > li > a {
+    color: #333;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover {
+    background-color: #c5b2dc;
+    color: #333;
+}
+
+/* Barras de progreso */
+.progress-bar-success {
+    background-color: var(--pastel-green);
+}
+.progress-bar-info {
+    background-color: var(--pastel-teal);
+}
+.progress-bar-warning {
+    background-color: var(--pastel-yellow);
+    color: #333;
+}
+.progress-bar-danger {
+    background-color: var(--pastel-red);
+}
+.progress-bar-primary {
+    background-color: var(--pastel-blue);
+}
+
+/* Tablas */
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+.table-hover > tbody > tr:hover {
+    background-color: var(--pastel-yellow);
+    opacity: 0.7;
+}
+
+/* Paneles */
+.panel-default > .panel-heading {
+    background-color: var(--pastel-gray);
+    color: #333;
+}
+.panel-primary > .panel-heading {
+    background-color: var(--pastel-blue);
+    color: #333;
+    border-color: var(--pastel-blue);
+}
+.panel-success > .panel-heading {
+    background-color: var(--pastel-green);
+    color: #333;
+    border-color: var(--pastel-green);
+}
+.panel-info > .panel-heading {
+    background-color: var(--pastel-teal);
+    color: #333;
+    border-color: var(--pastel-teal);
+}
+.panel-warning > .panel-heading {
+    background-color: var(--pastel-yellow);
+    color: #333;
+    border-color: var(--pastel-yellow);
+}
+.panel-danger > .panel-heading {
+    background-color: var(--pastel-red);
+    color: #333;
+    border-color: var(--pastel-red);
+}
+
+/* Formularios */
+.form-control:focus {
+    border-color: var(--pastel-purple);
+    box-shadow: 0 0 8px rgba(217, 202, 235, 0.6);
+}
+
+/* Paginación */
+.pagination > .active > a,
+.pagination > .active > span {
+    background-color: var(--pastel-blue);
+    border-color: var(--pastel-blue);
+    color: #333;
+}
+.pagination > .active > a:hover,
+.pagination > .active > span:hover {
+    background-color: #8ac8e9;
+    border-color: #8ac8e9;
+    color: #333;
+}
+
+/* Enlaces */
+a {
+    color: #5a9bd1;
+}
+a:hover {
+    color: #3a7db1;
+    text-decoration: none;
+}
+
+/* Alertas */
+.alert-success {
+    background-color: var(--pastel-green);
+    border-color: #a3d6a3;
+    color: #333;
+}
+.alert-info {
+    background-color: var(--pastel-teal);
+    border-color: #8ddbc1;
+    color: #333;
+}
+.alert-warning {
+    background-color: var(--pastel-yellow);
+    border-color: #f5e89e;
+    color: #333;
+}
+.alert-danger {
+    background-color: var(--pastel-red);
+    border-color: #e99696;
+    color: #333;
+}
+
+/* Breadcrumbs */
+.breadcrumb {
+    background-color: var(--pastel-gray);
+}
+.breadcrumb > .active {
+    color: #555;
+}
+
+/* GridView */
+.grid-view .summary {
+    color: #777;
+}
